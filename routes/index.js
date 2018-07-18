@@ -1,9 +1,6 @@
-var express = require('express');
-var router = express.Router();
+// Try to consolidate files here for routing
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-
-module.exports = router;
+module.exports = function(router) {
+    homepage = require("./homepage");
+    users    = require("./users")
+  };
