@@ -7,6 +7,7 @@ var logger       = require('morgan');
 var indexRouter = require('./routes/homepage');
 var usersRouter = require('./routes/users');
 // TODO: consolidate routes
+        //Add mongoose
 // var routes = require('./routes')
 
 var app = express();
